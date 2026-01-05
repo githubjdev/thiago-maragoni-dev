@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import dev.thiago.springboot.model.Produto;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/apiteste")
 public class ControllerInicial {
 
 	@GetMapping
@@ -25,7 +25,7 @@ public class ControllerInicial {
 	public ResponseEntity<Produto> getProduto() {
 		Produto produto = new Produto();
 		produto.setNome("Teclado");
-		produto.setValor(120.00);
+		produto.setPreco(120.00);
 		return ResponseEntity.ok(produto);
 
 	}
