@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import dev.thiago.springboot.model.Produto;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/apiteste")
 public class ControllerInicial {
 
 	@GetMapping
