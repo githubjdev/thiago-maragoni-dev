@@ -22,5 +22,6 @@ public class ProdutoController {
 		Produto p = produtoService.salvar(produto);
 		return ResponseEntity.ok(p);
 	}
+	
 
 }
