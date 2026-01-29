@@ -42,6 +42,7 @@ public class ProdutoController {
 		return ResponseEntity.ok(produtos);
 	}
 
+	/*Ensinado para o aluno*/
 	@PostMapping
 	public ResponseEntity<Produto> criar(@RequestBody Produto produto) {
 		Produto salvo = produtoService.salvar(produto);
